@@ -23,7 +23,7 @@ app.controller("LoginController", function($scope, $http, $sce, MyFactory) {
     });
 
 
-    //var i = Pportal test;
+    var i = Pportal commit;
 
     // test pportal 
 
