@@ -21,7 +21,9 @@ app.controller("LoginController", function($scope, $http, $sce, MyFactory) {
         }
       };
     });
-    var i = Test;
+
+
+    //var i = Pportal test;
 
     // test pportal 
 
