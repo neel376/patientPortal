@@ -321,4 +321,4 @@ module.exports = app;
 
 
 var i = 0;
-var Test = "to check commit on VSTS";
+var Test = "to check on VSTS commit 1";
