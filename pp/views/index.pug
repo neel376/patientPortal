@@ -1,0 +1,17 @@
+extends layout
+  
+block content
+    h1= title
+    p Welcome to #{title}
+    form(onSubmit='return gotoSummoner();')
+        input(type='text', id='summoner', placeholder='Summoner Name')
+        input(type='submit' value='Search')
+
+block scripts
+    script.
+        function gotoSummoner() {     
+            var url = "/summoner/" + document.getElementById('summoner').value;
+            console.log("lol");
+            location.href=url;
+            return false;
+        }

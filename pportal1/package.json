@@ -1,0 +1,9 @@
+{
+  "name": "pportal1",
+  "version": "0.0.0",
+  "description": "pportal1",
+  "main": "server.js",
+  "author": {
+    "name": "BMHA"
+  }
+}

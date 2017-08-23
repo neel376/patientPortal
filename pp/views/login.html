@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js">     </script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.js"></script>
+ <script src="https://js.authrocket.com/v1/authrocket.js" type="text/javascript"></script>
+ <script src="/public/app.js"></script>
+<link href="../Public/assets/css/login.css" rel="stylesheet"/>
+  <script src="/public/assets/js/login.js"></script>
+ <script src="/public/MainController.js"></script>
+ 
+
+  
+</head>
+<body ng-app="myapp" ng-controller="MainController" data-ng-init="clearToken()">
+ <div class="login-page">
+  <div class="form">
+  <img src="Public/images/bluehills.jpg">
+  <div class="formFormat"></div>
+    <form id="login-form">
+      <input type="text" value="geemo" id="login_username" />
+      <input type="password" value="password" id="login_password"/>
+      <button type="submit">Login</button>
+      <p class="message">Forgot Your Password? <a href="#">Change Password</a></p>
+    </form>
+  </div>
+</div>
+<p id="login-errors"></p>
+</body>
+</html>
