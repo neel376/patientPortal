@@ -6,7 +6,12 @@
       localStorage.setItem('token', val);
     },
     getData: function () {
-      return localStorage.getItem('token');
+
+
+        // test committ  app.js in VSTS
+        return localStorage.getItem('token');
+
+
     },
   }
 });
