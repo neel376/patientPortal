@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "pportal1", "pportal1.njsproj", "{A6F84326-DEB5-44FA-802E-25204F9ADD29}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "PpDemo2", "PpDemo2.njsproj", "{A6F84326-DEB5-44FA-802E-25204F9ADD29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
