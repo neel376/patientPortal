@@ -320,5 +320,7 @@ console.log('Server running on ports: ' + port);
 module.exports = app;
 
 
-var i = 0;
-var Test = "to check on VSTS commit 1";
+//var i = 0;
+//var Test = "to check on VSTS commit 1";
+
+var testMsg = 'PpDemo2 committ-1';
