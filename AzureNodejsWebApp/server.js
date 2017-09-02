@@ -318,3 +318,7 @@ app.listen(port);
 console.log('Server running on ports: ' + port);
 
 //module.exports = app;
+
+
+// for test committ
+var committ = 0;
