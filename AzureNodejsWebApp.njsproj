@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{a6f84326-deb5-44fa-802e-25204f9add29}</ProjectGuid>
+    <ProjectHome>pp\</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>server.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>PpDemo2</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="config.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="response.xml" />
+    <Compile Include="..\..\server.js">
+      <Link>server.js</Link>
+    </Compile>
+    <Compile Include="config\auth.js" />
+    <Compile Include="config\database.js" />
+    <Compile Include="config\passport.js" />
+    <Compile Include="nodefiles\auth.js" />
+    <Compile Include="nodefiles\database.js" />
+    <Content Include="Public\main.css" />
+    <Content Include="Public\lab.json" />
+    <Content Include="Public\patients.json" />
+    <Content Include="Public\PatientSummary.json" />
+    <Compile Include="Public\app.js" />
+    <Compile Include="Public\combodate.js" />
+    <Compile Include="Public\jquery.js" />
+    <Compile Include="Public\labresults.js" />
+    <Compile Include="Public\LoginController.js" />
+    <Compile Include="Public\MainController.js" />
+    <Content Include="views\dashboard.html" />
+    <Content Include="views\immunization.html" />
+    <Content Include="views\labProto.html" />
+    <Content Include="views\labresults.html" />
+    <Content Include="views\login.html" />
+    <Content Include="views\referrals.html" />
+    <Content Include="views\summary.html" />
+    <Content Include="views\Test.html" />
+    <Content Include="views\index.pug" />
+    <Compile Include="app\models\user.js" />
+    <Content Include="Public\css\custom.css" />
+    <Content Include="Public\css\summary.css" />
+    <Content Include="Public\css\survey.css" />
+    <Content Include="Public\images\notes.png" />
+    <Content Include="Public\images\bluehills.jpg" />
+    <Content Include="Public\jquery-ui-1.12.0\AUTHORS.txt" />
+    <Content Include="Public\jquery-ui-1.12.0\LICENSE.txt" />
+    <Content Include="Public\jquery-ui-1.12.0\index.html" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.css" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.min.css" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.structure.css" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.structure.min.css" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.theme.css" />
+    <Content Include="Public\jquery-ui-1.12.0\jquery-ui.theme.min.css" />
+    <Content Include="Public\jquery-ui-1.12.0\package.json" />
+    <Compile Include="Public\jquery-ui-1.12.0\jquery-ui.js" />
+    <Compile Include="Public\jquery-ui-1.12.0\jquery-ui.min.js" />
+    <Content Include="Public\jquery.transit\bower.json" />
+    <Content Include="Public\jquery.transit\component.json" />
+    <Content Include="Public\jquery.transit\package.json" />
+    <Content Include="Public\jquery.transit\CONTRIBUTING.md" />
+    <Content Include="Public\jquery.transit\HISTORY.md" />
+    <Content Include="Public\jquery.transit\NOTES.md" />
+    <Content Include="Public\jquery.transit\README.md" />
+    <Compile Include="Public\jquery.transit\jquery.transit.js" />
+    <Content Include="Public\assets\css\animate.min.css" />
+    <Content Include="Public\assets\css\bootstrap.min.css" />
+    <Content Include="Public\assets\css\dashboard.css" />
+    <Content Include="Public\assets\css\demo.css" />
+    <Content Include="Public\assets\css\lab.css" />
+    <Content Include="Public\assets\css\light-bootstrap-dashboard.css" />
+    <Content Include="Public\assets\css\light-bootstrap-survey.css" />
+    <Content Include="Public\assets\css\login.css" />
+    <Content Include="Public\assets\css\pe-icon-7-stroke.css" />
+    <Content Include="Public\assets\fonts\Pe-icon-7-stroke.svg" />
+    <Content Include="Public\assets\img\bluehillslogo.png" />
+    <Content Include="Public\assets\img\default-avatar.png" />
+    <Content Include="Public\assets\img\mask.png" />
+    <Content Include="Public\assets\img\new_logo.png" />
+    <Content Include="Public\assets\img\tim_80x80.png" />
+    <Content Include="Public\assets\img\images.jpg" />
+    <Content Include="Public\assets\img\sidebar-1.jpg" />
+    <Content Include="Public\assets\img\sidebar-2.jpg" />
+    <Content Include="Public\assets\img\sidebar-3.jpg" />
+    <Content Include="Public\assets\img\sidebar-4.jpg" />
+    <Content Include="Public\assets\img\sidebar-5.jpg" />
+    <Content Include="Public\assets\img\sidebar-6.jpg" />
+    <Content Include="Public\assets\img\sidebar-7.jpg" />
+    <Content Include="Public\assets\img\favicon.ico" />
+    <Content Include="Public\assets\img\loading-bubbles.svg" />
+    <Compile Include="Public\assets\js\bootstrap-checkbox-radio-switch.js" />
+    <Compile Include="Public\assets\js\bootstrap-notify.js" />
+    <Compile Include="Public\assets\js\bootstrap-select.js" />
+    <Compile Include="Public\assets\js\bootstrap.min.js" />
+    <Compile Include="Public\assets\js\chartist.min.js" />
+    <Compile Include="Public\assets\js\custom.js" />
+    <Compile Include="Public\assets\js\demo.js" />
+    <Compile Include="Public\assets\js\jquery-1.10.2.js" />
+    <Compile Include="Public\assets\js\light-bootstrap-dashboard.js" />
+    <Compile Include="Public\assets\js\login.js" />
+    <Content Include="Public\assets\img\faces\face-0.jpg" />
+    <Content Include="Public\assets\img\faces\face-1.jpg" />
+    <Content Include="Public\assets\img\faces\face-2.jpg" />
+    <Content Include="Public\assets\img\faces\face-3.jpg" />
+    <Content Include="Public\assets\img\faces\face-4.jpg" />
+    <Content Include="Public\assets\img\faces\face-5.jpg" />
+    <Content Include="Public\assets\img\faces\face-6.jpg" />
+    <Content Include="Public\assets\img\faces\face-7.jpg" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_444444_256x240.png" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_555555_256x240.png" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_777620_256x240.png" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_777777_256x240.png" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Public\jquery-ui-1.12.0\images\ui-icons_ffffff_256x240.png" />
+    <Compile Include="Public\jquery-ui-1.12.0\external\jquery\jquery.js" />
+    <Content Include="Public\jquery.transit\test\index.html" />
+    <Content Include="Public\jquery.transit\test\style.css" />
+    <Compile Include="Public\jquery.transit\test\test.js" />
+    <Content Include="views\auth\connect-local.ejs" />
+    <Content Include="views\auth\login.ejs" />
+    <Content Include="views\auth\signup.ejs" />
+    <Content Include="views\secured\home.ejs" />
+    <Content Include="views\secured\profile.ejs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app" />
+    <Folder Include="app\models" />
+    <Folder Include="bin" />
+    <Folder Include="config" />
+    <Folder Include="nodefiles" />
+    <Folder Include="PpNodeModule\" />
+    <Folder Include="Public" />
+    <Folder Include="Public\assets" />
+    <Folder Include="Public\assets\css" />
+    <Folder Include="Public\assets\fonts" />
+    <Folder Include="Public\assets\img" />
+    <Folder Include="Public\assets\img\faces" />
+    <Folder Include="Public\assets\js" />
+    <Folder Include="Public\assets\sass" />
+    <Folder Include="Public\assets\sass\lbd" />
+    <Folder Include="Public\assets\sass\lbd\mixins" />
+    <Folder Include="Public\css" />
+    <Folder Include="Public\images" />
+    <Folder Include="Public\jquery.transit" />
+    <Folder Include="Public\jquery.transit\test" />
+    <Folder Include="Public\jquery-ui-1.12.0" />
+    <Folder Include="Public\jquery-ui-1.12.0\external" />
+    <Folder Include="Public\jquery-ui-1.12.0\external\jquery" />
+    <Folder Include="Public\jquery-ui-1.12.0\images" />
+    <Folder Include="Public\resources" />
+    <Folder Include="views" />
+    <Folder Include="views\auth" />
+    <Folder Include="views\secured" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,44 @@
+.button{
+	text-decoration: none;
+	color: white;
+	background: #2483c2;
+	border-color: #2483c2;
+}
+.button:hover, .button:focus, .button:active{
+	background: #185781 !important;
+	border-color:#185781;
+	text-decoration: none;
+	color: white;
+}
+.icon-wrap{
+	margin-bottom: 20px;
+	color: #2483c2;
+}
+.sub-card{
+	/*background: #F7F7F8;*/
+	/*border-color: #b7f3fb !important;*/
+}
+
+.font-failed{
+	color: #EE2D20;
+	opacity: 0.5;
+}
+
+.font-passed{
+	color: #66C46B;
+	opacity: 0.7;
+}
+.lab-info{
+	position: absolute;
+	top: 40%;
+	width: 95%;
+	z-index: 5;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+.main-sidebar {
+background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
