@@ -1,5 +1,5 @@
-body{
-	/*padding-top: 70px;*/
+body {
+    /*padding-top: 70px;*/
 }
 
 
@@ -12,22 +12,41 @@ body{
     #logoBH {
         width: 90%;
     }
+
     .login-page {
         width: auto;
     }
+
     .main-panel footer {
-        position:static !important;
+        position: static !important;
     }
+
     #reposition {
         position: static;
     }
+
     .main-panel > .content {
         padding: 30px 5px;
     }
 
-    .main-panel > container-fluid {
+    .container-fluid {
         padding-left: 5px;
         padding-right: 5px;
     }
+    .content .container-fluid .col-md-12 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .card-plain {
+        font-size: 12px;
+    }
+    .card.card-plain td {
+        padding: 6px;
+    }
+    .card .table tbody td:first-child, .card .table thead th:first-child {
+        padding-left: 10px;
+    }
+    .header .row h4 {
+        margin: 6px 25%;
+    }
 }
-

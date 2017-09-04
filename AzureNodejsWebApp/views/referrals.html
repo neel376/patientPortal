@@ -188,7 +188,7 @@
                                       <iframe src="https://www.dropbox.com/s/mapc2wvller9kzo/QMC-Pre-Adm-OutptReferralForm3.pdf" width="800px" height="1000px" class="lab-pdf">
                                       </iframe> -->
 
-                                <iframe ng-src="{{trustSrc(results[linkIndex].LabLink)}}" style="width:1000px; height:750px;" frameborder="0"></iframe>
+                                <iframe ng-src="{{trustSrc(results[linkIndex].LabLink)}}" style="width:100%; height:750px;" frameborder="0"></iframe>
 
                             </div>
                         </div>
@@ -210,8 +210,8 @@
                                         </div>
                                         <div ng-show="showNothing">No colors available</div>
                                         <!-- <div class="content table-responsive table-full-width"> -->
-                                        <table class="table table-hover">
-                                            <thead>
+                                        <table class="table table-hover table-responsive">
+                                            <tr>
                                             <th>Date</th>
                                             <th>ReferToName</th>
                                             <th>Speciality</th>
@@ -220,7 +220,7 @@
                                             <th>Refferal Reason</th>
                                             <th>Refferal Notes</th>
                                             <th>View Results</th>
-                                            </thead>
+                                            </tr>
                                             <tbody ng-repeat="result in refferals track by $index">
                                                 <!-- | filter:search -->
                                                 <tr>
