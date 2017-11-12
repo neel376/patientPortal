@@ -1,20 +1,20 @@
 const sql = require('mssql');
 
 //var config = {
-//  user: 'neel', 
-//  password: 'Dellftw225!',
-//  server: 'p-portal.database.windows.net',
-//  database: 'patientPortal',
+//  user: '******', 
+//  password: '*******',
+//  server: '********',
+//  database: '********',
 //  options: { 
 //      encrypt: true
 //  }
 //}
 
 var config = {
-    user: 'mybhma',
-    password: 'Propeers1',
-    server: 'wllrytrffc.database.windows.net',
-    database: 'patientPortal',
+    user: '*******',
+    password: '******',
+    server: '*********',
+    database: '*******',
     options: {
         encrypt: true
     }
