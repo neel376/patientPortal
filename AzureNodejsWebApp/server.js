@@ -22,19 +22,19 @@ var twilio = require('twilio');
 var azure = require('azure-storage');
 var token = null;
 var jwt = require('jsonwebtoken'); 
-var secret = 'jsk_GiBY7CW58kQNbp8mqm1eKlmR8J1RN0lUBOqTeaVUruY';//'jsk_BFCLBspN0kDnIOGz1CgDf79bRawsWQaVSFg6dDvletu';
+var secret = '********';//'jsk_BFCLBspN0kDnIOGz1CgDf79bRawsWQaVSFg6dDvletu';
 var username;
 const sql = require('mssql');
-var accessKey = 'oHnWz0zHRYspbbQgifMNss+Mz0Z7Uh2cd0vnyKdflWFl4UPet2agpRbiOq2LXAdPeseyeCdMQF04/Kt7ShFRVw==';
-var storageAccount = 'portalvhdstx4wf62bs68fk';
+var accessKey = '******';
+var storageAccount = '********';
 
 var blobService = azure.createBlobService(storageAccount, accessKey);
 
 var config = {
-    user: 'mybhma',
-    password: 'Propeers1',
-    server: 'wllrytrffc.database.windows.net',
-    database: 'patientPortal',
+    user: '******',
+    password: '********',
+    server: '********',
+    database: '*********',
     options: {
         encrypt: true
     }
